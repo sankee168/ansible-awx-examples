@@ -1,0 +1,12 @@
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: First Message
+      debug:
+        msg: "First World!"
+    - name: Second Message
+      debug:
+        msg: "Second World!"
+    - name: Third Message
+      debug:
+        msg: "Last World!"
