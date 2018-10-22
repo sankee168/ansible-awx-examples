@@ -10,3 +10,16 @@
     - name: Third Message
       debug:
         msg: "Last World!"
+    - name: create file sample1
+      file:
+        path: "/home/ubuntu/resourcemgr/sample1.txt"
+        state: touch
+    - name: create file sample2
+      file:
+        path: "/home/ubuntu/resourcemgr/sample2.txt"
+        state: touch
+    - name: create file sample3
+      file:
+        path: "/home/ubuntu/resourcemgr/sample3.txt"
+        state: touch
+      
